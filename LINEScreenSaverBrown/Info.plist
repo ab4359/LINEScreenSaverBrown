@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Bundle identity -->
+	<key>CFBundleIdentifier</key>
+	<string>jp.naver.line.screensaver.brown</string>
+
+	<key>CFBundleName</key>
+	<string>LINEScreenSaverBrown</string>
+
+	<key>CFBundleExecutable</key>
+	<string>LINEScreenSaverBrown</string>
+
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+
+	<key>CFBundleVersion</key>
+	<string>2</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+
+	<!-- Screen saver entry point — must match the @objc class name -->
+	<key>NSPrincipalClass</key>
+	<string>LINESSViewBrown</string>
+
+	<!-- Supported platforms -->
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+
+	<!-- Minimum macOS version (13 = Ventura, supports both arm64 and x86_64) -->
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+
+	<!-- Copyright -->
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2017 LINE Corp. Rebuilt 2025 for Apple Silicon / macOS 13+.</string>
+</dict>
+</plist>
